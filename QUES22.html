@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var range = prompt("input the number of elements you want to insert in a list: ");
+        var arr = new Array()
+        //if we change the range to x > range it will give error
+        for (var x = 0; x < range; x++) {
+            var names = prompt("input names: ");
+            arr.push(names);
+        }
+        document.write(arr);
+    </script>
+</body>
+
+</html>

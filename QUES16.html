@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var frnds = ['usman', 'harris', 'ali'];
+        var dinner = frnds.forEach(function (x) {
+            document.write("Salam " + x + " you are invited for dinner tomorrow" + "<br>")
+
+        })
+        var rem = frnds.pop();
+        document.write(rem, " is not coming");
+
+        document.write("<br>");
+        var new_frnds = ['nauman', 'salman'];
+        var frnds = new_frnds.concat(frnds);
+        var dinner = frnds.forEach(function (x) {
+            document.write("Salam " + x + " you are invited for dinner tomorrow" + "<br>")
+
+        })
+        document.write("<br>")
+        document.write("<br>")
+        document.write("found bigger table")
+        <document.write("<hr>")
+        document.write("<br>")
+        frnds.push("aslam")
+        document.write(frnds)
+        frnds[2] = "kashif"
+        document.write("<br>")
+        document.write(frnds)
+        <document.write("<hr>")
+        var dinner = frnds.forEach(function (x) {
+            document.write("Salam " + x + " you are invited for dinner tomorrow" + "<br>")
+
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function make_shirt(size, text) {
+            if (size == 'large') {
+                document.write("I want size " + size + " with a text I love javascript");
+
+            } else {
+                document.write("I want size " + size + " with a text " + text);
+            }
+        }
+
+        make_shirt("large", "helo")
+        document.write("<br>")
+        make_shirt("small","hello")
+        document.write("<br>")
+        make_shirt("medium","no more")
+    </script>
+</body>
+
+</html>
